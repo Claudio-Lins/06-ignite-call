@@ -18,7 +18,7 @@ export const IntervalItem = styled('div', {
   justifyContent: 'space-between',
   padding: '$3 $4',
 
-  '& + &': {
+  '&': {
     borderBottom: '1px solid $gray600',
   },
 })
